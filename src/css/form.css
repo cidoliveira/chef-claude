@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+.ingredient-input {
+  font-size: 1rem;
+  display: flex;
+  width: 25rem;
+  height: auto;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.add-ingredient {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: auto;
+  width: 15rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: white;
+  background: #141413;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ingredient-list {
+  margin: 2rem 25rem 2rem 2rem;
+  width: 18rem;
+  position: relative;
+  list-style: disc;
+}
+
+.list-item {
+  margin-bottom: 1rem;
+}
